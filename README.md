@@ -88,8 +88,7 @@ lambda - An anonymous function. Or rather, functions are a lambda bound to a nam
 A lambda is created with a whitespace seperated argslist between a \ and a \,
 followed by an expression. For example "\a b\ a + b" creates a lambda that adds "a" and "b".
 
-ref
-The name of this one will change because its not a reference in the traditional sense.
+ref - The name of this one will change because its not a reference in the traditional sense.
 Infact it is a very inaccurate name. In any case, a ref is created by placing a ' infront
 of an expression. Whatever that expression is will be evaluated when the ref is.
 For example:
