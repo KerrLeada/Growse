@@ -22,11 +22,17 @@ Vectors and strings can be concentrated with ~.
 Blocks are expressions between a [ and ] seperated by newline or a , and will return
 the last evaluated expression.
 For example:
+
 def a = [
-  1+2
-  3*4
-  42
+
+1+2
+
+3*4
+
+42
+
 ]
+
 Will return 42.
 
 At the moment there are the following keywords.
