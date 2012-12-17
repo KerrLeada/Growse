@@ -41,79 +41,56 @@ or -
 Normal languages has an "else" clause following "if". Growse has it as well,
 but its called "or" instead.
 
-do
-Used in if expressions and loops as a visual seperator between the condition
+do - Used in if expressions and loops as a visual seperator between the condition
 and body.
-------------
 
-def
-Defines a function.
-------------
+def - Defines a function.
 
-val
-Defines a constant value.
-------------
+val - Defines a constant value.
 
-var
-Defines a variable.
-------------
+var - Defines a variable.
 
-not
-Returns "true" if the following expression is "false" and "false" otherwise.
+not - Returns "true" if the following expression is "false" and "false" otherwise.
 Keep in mind that in Growse, anything thats not "false" is "true".
-------------
 
-true
-Literal for "true".
-------------
+true - Literal for "true".
 
-false
-Literal for "false".
-------------
+false - Literal for "false".
 
-loop
-Used to create a loop.
-------------
+loop - Used to create a loop.
 
-Growse doesnt have many types atm, and the line between them is a bit blurry. The
+Growse doesnt have many types atm. The
 ones that exist are:
-int
-a 32-bit signed integer.
-------------
+int - A 32-bit signed integer.
 
-real
-A 64-bit decimal value.
-------------
+real - A 64-bit decimal value.
 
-bool
-"true" or "false".
-------------
+bool - "true" or "false".
 
-string
-A string of characters. Text, basically. Created by placing the string content between
+string -A string of characters. Text, basically.
+
+A string is created by placing the string content between
 two ".
-------------
 
-vector
-A list, but with a different name. It is created through a sequence of expressions,
+vector - A list, but with a different name.
+
+A vector is created through a sequence of expressions,
 separated by one or more spaces, between a { and a }.
-------------
 
-lambda
-An anonymous function. Or rather, functions are a lambda bound to a name. Created
-with a whitespace seperated argslist between a \ and a \, followed by an expression.
-For example:
-\a b\ a + b
-creates a lambda that adds "a" and "b".
-------------
+lambda - An anonymous function. Or rather, functions are a lambda bound to a name.
+
+A lambda is created with a whitespace seperated argslist between a \ and a \,
+followed by an expression. For example "\a b\ a + b" creates a lambda that adds "a" and "b".
 
 ref
 The name of this one will change because its not a reference in the traditional sense.
 Infact it is a very inaccurate name. In any case, a ref is created by placing a ' infront
 of an expression. Whatever that expression is will be evaluated when the ref is.
 For example:
+
 val a = ':somecall 1 2
+
 a
+
 Will cause the expression ":somecall 1 2" to be evaluated on the second line rather then
 the first one.
-------------
