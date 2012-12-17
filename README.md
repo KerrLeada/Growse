@@ -31,16 +31,15 @@ Will return 42.
 
 At the moment there are the following keywords.
 
-if
+if - 
 The standard if statement, but in Growse it is an expression.
 
-ifn
+ifn - 
 Short for "if not".
 
-or
+or - 
 Normal languages has an "else" clause following "if". Growse has it as well,
 but its called "or" instead.
-------------
 
 do
 Used in if expressions and loops as a visual seperator between the condition
