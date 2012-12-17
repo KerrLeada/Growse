@@ -33,11 +33,9 @@ At the moment there are the following keywords.
 
 if
 The standard if statement, but in Growse it is an expression.
-------------
 
 ifn
 Short for "if not".
-------------
 
 or
 Normal languages has an "else" clause following "if". Growse has it as well,
